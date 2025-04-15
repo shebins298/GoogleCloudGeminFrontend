@@ -5,7 +5,7 @@ async function sendPrompt() {
 
   try {
     // Ensure the API endpoint matches your backend's route
-    const res = await fetch("https://askgeminibackend-rdq8.onrender.com/generate", {
+    const res = await fetch("https://googlecloudgeminbackend-989444157242.us-central1.run.app/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt }),
